@@ -1,0 +1,67 @@
+body{
+  background: #000000;
+margin: 0;
+font-family: "Sofia", sans-serif;
+}
+
+h1,h2,h3{
+  color: #5f5d5d;
+  text-align: center;
+  color: rgb(7, 7, 7);
+  text-shadow: -1px -1px 0 #5f5d5d, 1px -1px 0 #5f5d5d, -1px 1px 0 #5f5d5d, 1px 1px 0 #5f5d5d;
+}
+#form{
+  width: 400px;
+  margin:20px auto 0 auto;
+  background-color:rgb(6, 6, 6);
+  border:2px solid rgb(6, 6, 6);
+  border-radius: 8px;
+  padding: 30px;
+}
+#form button{
+  background: #000000;
+  color: #5f5d5d;
+  border:1px solid  #5f5d5d;
+  border-radius: 10px;
+  padding: 18px;
+  margin: 20px 0px;
+  cursor: pointer;
+  font-size: 20px;
+  width:100%;
+}
+
+.input-group{
+  display: flex;
+  flex-direction:column;
+  margin-bottom: 15px;
+}
+
+.input-group input{
+  font-size: 20px;
+  margin-top: 5px;
+  padding: 10px;
+  color: #fdfbfb;
+  background-color:rgb(0, 0, 0);
+  border: 1px solid #5f5d5d;
+}
+
+.input-group input:focus{
+  outline: 0;
+}
+
+.input-group .error{
+  color: #da5757;
+  font-size: 16px;
+  margin-top: 5px;
+}
+
+.input-group.success input{
+   border-color: #68bd46;
+}
+.input-group.error input{
+  border-color: #da5757;
+}
+#important{
+  padding-left: 2px;
+  color: #da5757;
+}

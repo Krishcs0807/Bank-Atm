@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="Bootstrap/Css/bootstrap.min.css">
+    <link rel="stylesheet" href="Bootstrap/Css/NewPinNumber.css">
+    <script src="Bootstrap/js/Amount.js" defer></script>
+    <title>Document</title>
+</head>
+
+<body id="body">
+    <h1>Welcome</h1>
+    <h2>Ok Bank ATM</h2>
+    <form th:action="@{${Amounturl}}" method="post" id="form">
+        <div class="input-group">
+            <laple for="Money">Enter Amount<span id="important">*</span></laple>
+            <input type="text" id="Money" name="Money" onFocus="this.select()">
+            <div class="error"></div>
+        </div>
+        <button type="submit">Submit</button><br>
+
+    </form>
+    <script src="https://kit.fontawesome.com/0faddc1af8.js"></script>
+    <script src="Bootstrap/Js/bootstrap.min.js"></script>
+    <script>
+        window.onload = function () {
+            var input = document.getElementById('Money');
+            input.focus();
+            input.select();
+        }
+        setTimeout(function () {
+            window.location.href = "/Home";
+        }, 60000)
+    </script>
+</body>
+
+</html>

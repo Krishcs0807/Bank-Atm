@@ -1,0 +1,52 @@
+table {
+	margin-top:100px;
+	margin-left:25%;
+	border-collapse: collapse;
+    font-family: Tahoma, Geneva, sans-serif;
+	
+}
+
+
+table tr th {
+background-color: rgb(156, 153, 153);
+}
+
+table tbody td {
+	color: #636363;
+	width:150px;
+	
+}
+table tbody tr {
+	
+	background-color: rgb(243, 243, 128);
+}
+table tbody tr:nth-child(odd) {
+	background-color: #ffffff;
+}
+
+form{
+	margin-top:20px;
+}
+button{
+	margin-left:29% ;
+	margin-top: 1%;
+	font-size: large;
+	border-radius: 20px;
+	border: none;
+	background-color: rgb(33, 241, 33);
+	height:50px;
+	width:650px;
+}
+button:hover{
+	height:55px;
+	width:655px;
+}
+
+
+
+
+
+  
+
+
+  

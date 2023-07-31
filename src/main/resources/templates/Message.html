@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="Bootstrap/Css/bootstrap.min.css">
+    <title>Document</title>
+</head>
+
+<body style="background-color: black;">
+
+    <div th:text="${msg}" class="fa-beat" style="color: azure;text-align: center;margin-top:40px;font-size: 50px;">
+    </div>
+    <i class="fa-solid fa-money-bill-1 fa-10x fa-beat"
+        style="color: #52bd0a;margin-left:600px;margin-top: 50px;"></i><br><br>
+    <div th:text="${Amount}" style="color: #66f508;font-size:40px;text-align: center;"></div>
+    <h1 style="color: #ffffff;text-align: center;margin-top:10px;">Thank you</h1>
+    <i class="fa-solid fa-hands-praying fa-8x" style="color: #ffffff;margin-left:600px;margin-top: 50px;"></i>
+    <script src="https://kit.fontawesome.com/0faddc1af8.js"></script>
+    <script>
+        setTimeout(function () {
+            window.location.href = "/Home";
+        }, 5000)
+    </script>
+</body>
+
+</html>
